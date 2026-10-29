@@ -1,6 +1,13 @@
 *.iml
 .gradle
 /local.properties
+local.properties
+.env
+*.env
+backend/.env
+backend/venv
+backend/venv/
+backend/__pycache__/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -12,4 +19,7 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.jks
+*.keystore
+*.apk
+*.aab
